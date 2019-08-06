@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    />
+
+    <link type="text/css" href="index.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed"
+      rel="stylesheet"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculator With JS</title>
+  </head>
+  <body>
+    <div class="mainDiv">
+      <form class="form-group" name="calculatorForm">
+        <input
+          type="text"
+          class="displayAreaScreen pr-3"
+          id="displayAreaScreen"
+          value=""
+          disabled
+        />
+
+        <div class="calculatorButtons">
+          <button type="button" class="operator" value="+">+</button>
+          <button type="button" class="operator" value="-">-</button>
+          <button type="button" class="operator" value="&times;">
+            &times;
+          </button>
+          <button type="button" class="operator" value="&divide;">
+            &divide;
+          </button>
+
+          <button type="button" class="num" value="7">7</button>
+          <button type="button" class="num" value="8">8</button>
+          <button type="button" class="num" value="9">9</button>
+
+          <button type="button" class="num" value="4">4</button>
+          <button type="button" class="num" value="5">5</button>
+          <button type="button" class="num" value="6">6</button>
+
+          <button type="button" class="num" value="1">1</button>
+          <button type="button" class="num" value="2">2</button>
+          <button type="button" class="num" value="3">3</button>
+
+          <button type="button" class="num" value="0">0</button>
+          <button type="button" class="decimal" value=".">.</button>
+          <button type="reset" class="btn btn-danger allClear" value="allClear">
+            AC
+          </button>
+
+          <button
+            type="button"
+            class="btn btn-primary equalSign operator"
+            value="equals"
+          >
+            =
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

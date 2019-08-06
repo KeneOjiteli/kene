@@ -1,0 +1,46 @@
+body {
+  /*background-color: beige;*/
+  height: 100%;
+  width: 100%;
+  background-color: #0e0e0e;
+  font-family: "Roboto", sans-serif;
+}
+
+.mainDiv {
+  margin: 70px auto;
+  background-color: #ffffff;
+  height: 530px;
+  width: 400px;
+}
+
+.displayAreaScreen {
+  background-color: #0e0e0e;
+  color: #ffffff;
+  width: 400px;
+  height: 100px;
+  text-align: right;
+  font-size: 30px;
+}
+
+.calculatorButtons {
+  display: grid;
+  grid-column-gap: 3px;
+  grid-row-gap: 15px;
+}
+
+button {
+  margin-top: 20px;
+  margin-left: 15px;
+  height: 50px;
+  width: 60px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.equalSign {
+  grid-area: 2/4 /6/5;
+  height: 94%;
+  width: 65%;
+  padding: 10px;
+  border-radius: 5px;
+}
